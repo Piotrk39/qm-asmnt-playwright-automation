@@ -1,0 +1,12 @@
+{
+  "name": "quality-minds-automation",
+  "version": "1.0.0",
+  "description": "Test written for the purpuse of recruitment assesment",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Piotr Krajewski",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.31.2"
+  }
+}
