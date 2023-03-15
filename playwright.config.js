@@ -14,7 +14,7 @@ const config = {
           timeout: 10000
       },
       launchOptions: {
-          slowMo: 300,
+          slowMo: 250,
           downloadsPath: 'resources/downloads',
           args: ['--start-maximized']
       },
@@ -36,13 +36,13 @@ const config = {
               baseURL : 'https://www.qualityminds.com/'
           },
       },
-      {
-          name: 'Edge',
-          use: {
-              baseURL : 'https://www.qualityminds.com/',
-              channel: 'msedge'
-          },
-      }
+    //   {
+    //       name: 'Edge',
+    //       use: {
+    //           baseURL : 'https://www.qualityminds.com/',
+    //           channel: 'msedge'
+    //       },
+    //   }
   ]
 
 }
